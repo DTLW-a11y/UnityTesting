@@ -2,7 +2,8 @@
 using namespace std;
 
 double AddDouble(double a, double b) {
-	return a + b;
+	cout << "Double Adding" <<endl;
+	return (b + a);
 }
 
 int main() {
