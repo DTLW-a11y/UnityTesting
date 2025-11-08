@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int AddInt(int a, int b) {
+double AddDouble(double a, double b) {
 	return a + b;
 }
 
 int main() {
-	cout << AddInt(1, 1);
+	cout << AddDouble(1.0f, 1.0f);
 	return 0;
 }
